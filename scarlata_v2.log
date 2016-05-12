@@ -1,0 +1,601 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=latex 2010.7.21)  27 AUG 2013 18:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**scarlata_v2
+(./scarlata_v2.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/emulateapj/emulateapj.cls
+Document Class: emulateapj 
+\bibbaselineskip=\skip41
+(/usr/local/texlive/2010/texmf-dist/tex/latex/revtex/revtex4-1.cls
+Document Class: revtex4-1 2010/02/25/18:00:00 4.1p (http://publish.aps.org/revt
+ex4/ for documentation)
+ Copyright (c) 2009 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
+ltxutil[2010/02/25/18:00:00 4.1p utilities package (portions licensed from W. E
+. Baxter web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 308.
+Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
+\eqncolsep=\skip42
+Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 433.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
+Class revtex4-1 Info: Making \typeout \long on input line 2046.
+ltxfront[2010/02/25/18:00:00 4.1p frontmatter package (AO,DPC)]
+\c@affil=\count81
+\c@collab=\count82
+\absbox=\box27
+ltxgrid[2010/02/25/18:00:00 4.1p page grid package (portions licensed from W. E
+. Baxter web at superscript.com)]
+\c@linecount=\count83
+\output@latex=\toks14
+\box@size@1=\box28
+\box@size@2=\box29
+\@protection@box=\box30
+\@topmark@saved=\toks15
+\footins@saved=\box31
+\footins@recovered=\box32
+\column@recovered=\box33
+\pagesofar=\box34
+\footsofar=\box35
+\pagegrid@col=\count84
+Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5578.
+\c@part=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\abovecaptionskip=\skip43
+\belowcaptionskip=\skip44
+\c@figure=\count91
+\fbox@1=\box36
+\c@table=\count92
+\fbox@2=\box37
+\c@video=\count93
+\fbox@4=\box38
+\@bibdataout=\write3
+\widetext@top=\box39
+\widetext@bot=\box40
+
+Class revtex4-1 Warning: No Society specified, using default society aps.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/revtex/aps4-1.rtx
+File: aps4-1 2010/02/25/18:00:00 4.1p (http://publish.aps.org/revtex4/ for docu
+mentation)
+Class revtex4-1 Info: RevTeX society APS selected on input line 31.
+)
+
+Class revtex4-1 Warning: No journal specified, using default pra.
+
+Class revtex4-1 Info: APS journal PRA selected on input line 7543.
+
+Class revtex4-1 Warning: No type size specified, using default 10.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+File: aps10pt4-1 2010/02/25/18:00:00 4.1p (http://publish.aps.org/revtex4/ for 
+documentation)
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2009/11/07 8.31a (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7547.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/revtex/revsymb4-1.sty
+Package: revsymb4-1 2010/02/25/18:00:00 4.1p (http://publish.aps.org/revtex4/ f
+or documentation)
+LaTeX Info: Redefining \REV@mathfrak on input line 119.
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+LaTeX Info: Redefining \frak on input line 99.
+LaTeX Info: Redefining \Bbb on input line 101.
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip47
+\LTright=\skip48
+\LTpre=\skip49
+\LTpost=\skip50
+\LTchunksize=\count95
+\LTcapwidth=\dimen104
+\LT@head=\box41
+\LT@firsthead=\box42
+\LT@foot=\box43
+\LT@lastfoot=\box44
+\LT@cols=\count96
+\LT@rows=\count97
+\c@LT@tables=\count98
+\c@LT@chunks=\count99
+\LT@p@ftn=\toks18
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.3 <23 July 2005>
+\epsffilein=\read1
+\epsfframemargin=\dimen105
+\epsfframethickness=\dimen106
+\epsfrsize=\dimen107
+\epsftmp=\dimen108
+\epsftsize=\dimen109
+\epsfxsize=\dimen110
+\epsfysize=\dimen111
+\pspoints=\dimen112
+)
+\c@front@matter@foot@note=\count100
+\alt@affil@toks=\toks19
+\alt@affil@toks@count=\toks20
+\keys@width=\skip51
+\c@lastfootnote=\count101
+\c@remember@figure@num=\count102
+\c@remember@table@num=\count103
+\bibindent=\dimen113
+\plot@width=\skip52
+\c@table@save=\count104
+\table@note@skip=\skip53
+\deluxe@table@width=\skip54
+\@d@t@a=\skip55
+\c@deluxe@table@num=\count105
+\abovedeluxetableskip=\skip56
+\belowdeluxetableskip=\skip57
+\lastrowheight=\dimen114
+\DT@p@ftn=\toks21
+\pt@column=\count106
+\pt@ncol=\count107
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 86.
+Class revtex4-1 Info: Patching longtable package on input line 86.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 86.
+
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 86.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 86.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 86.
+
+
+LaTeX Warning: Unused global option(s):
+    [manuscript].
+
+(./scarlata_v2.aux
+
+LaTeX Warning: Label `fig:dvha' multiply defined.
+
+)
+\openout1 = `scarlata_v2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+\openout3 = `scarlata_v2Notes.bib'.
+
+
+
+Class revtex4-1 Warning: Assuming \noaffiliation for authors.
+
+LaTeX Font Info:    Try loading font information for U+lasy on input line 139.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 139.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 139.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+
+LaTeX Warning: Reference `tab:info' on page 1 undefined on input line 242.
+
+[1]
+File: /Users/scarlata/PROJECTS/COS_Lya/NUV_fluxes.ps Graphic file (type eps)
+ </Users/scarlata/PROJECTS/COS_Lya/NUV_fluxes.ps>
+File: /Users/scarlata/PROJECTS/COS_Lya/Lya_GALEX_COS.ps Graphic file (type eps)
+
+
+</Users/scarlata/PROJECTS/COS_Lya/Lya_GALEX_COS.ps>
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+
+ []
+
+
+LaTeX Warning: Reference `tab:sample' on page 2 undefined on input line 299.
+
+File: images_COS.ps Graphic file (type eps)
+<images_COS.ps>
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+
+ []
+
+
+LaTeX Warning: Reference `tab:measurements' on page 2 undefined on input line 3
+52.
+
+
+Package natbib Warning: Citation `Goudfrooij2010' on page 2 undefined on input 
+line 370.
+
+
+LaTeX Warning: Reference `tab:info' on page 2 undefined on input line 371.
+
+
+Package natbib Warning: Citation `cowie2011' on page 2 undefined on input line 
+394.
+
+
+Package natbib Warning: Citation `hayes2013' on page 2 undefined on input line 
+407.
+
+
+Package natbib Warning: Citation `steidelXXX' on page 2 undefined on input line
+ 407.
+
+
+Package natbib Warning: Citation `hayesXXX' on page 2 undefined on input line 4
+07.
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 392--409
+[]\OT1/cmr/m/n/10 In Fig-ure 1[] (right panel) we com-pare the to-tal,
+ []
+
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+
+ []
+
+
+Class revtex4-1 Warning: Float cannot be placed.
+
+File: /Users/scarlata/PROJECTS/COS_Lya/delta_v.ps Graphic file (type eps)
+</Users/scarlata/PROJECTS/COS_Lya/delta_v.ps>
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `tab:xxx' on page 4 undefined on input line 454.
+
+File: /Users/scarlata/PROJECTS/COS_Lya/continuum.ps Graphic file (type eps)
+</Users/scarlata/PROJECTS/COS_Lya/continuum.ps>
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+
+ []
+
+
+Class revtex4-1 Warning: Float cannot be placed.
+
+File: stack.ps Graphic file (type eps)
+<stack.ps>
+File: Nstack.eps Graphic file (type eps)
+ <Nstack.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 513--513
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--513
+
+ []
+
+File: /Users/scarlata/PROJECTS/COS_Lya/FWHM_ew.ps Graphic file (type eps)
+</Users/scarlata/PROJECTS/COS_Lya/FWHM_ew.ps>
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+
+ []
+
+File: /Users/scarlata/PROJECTS/COS_Lya/FWHM_UVd.ps Graphic file (type eps)
+</Users/scarlata/PROJECTS/COS_Lya/FWHM_UVd.ps>
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
+
+ []
+
+File: /Users/scarlata/PROJECTS/COS_Lya/dv_fwhm.ps Graphic file (type eps)
+</Users/scarlata/PROJECTS/COS_Lya/dv_fwhm.ps>
+Underfull \hbox (badness 10000) in paragraph at lines 573--573
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 573--573
+
+ []
+
+
+Package natbib Warning: Citation `rubinxxx' on page 4 undefined on input line 6
+11.
+
+
+Package natbib Warning: Citation `steidel2011' on page 4 undefined on input lin
+e 611.
+
+
+Package natbib Warning: Citation `prochaska2011' on page 4 undefined on input l
+ine 611.
+
+
+Package natbib Warning: Citation `martin2013' on page 4 undefined on input line
+ 611.
+
+
+LaTeX Warning: Reference `fig:geometry' on page 4 undefined on input line 618.
+
+
+LaTeX Warning: Reference `fig:geometry' on page 4 undefined on input line 627.
+
+
+Package natbib Warning: Citation `sobolevxxx' on page 4 undefined on input line
+ 642.
+
+[4]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 647.
+
+[5]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 647.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+
+Package natbib Warning: Citation `Castor1970' on page 6 undefined on input line
+ 658.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 657--659
+
+ []
+
+
+LaTeX Warning: Reference `tab:atomic ' on page 6 undefined on input line 666.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--668
+
+ []
+
+[6]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 765.
+
+[7]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 765.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[8]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 789.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 789.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+File: dvel_ha.eps Graphic file (type eps)
+<dvel_ha.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 809--809
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 809--809
+
+ []
+
+[9]
+
+LaTeX Warning: Reference `tab:measurements' on page 10 undefined on input line 
+884.
+
+File: lumcomp_igm.eps Graphic file (type eps)
+<lumcomp_igm.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 901--901
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--901
+
+ []
+
+File: asym_hist.eps Graphic file (type eps)
+<asym_hist.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 956--956
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 956--956
+
+ []
+
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no “ in font cmr8!
+File: swr_ha.eps Graphic file (type eps)
+<swr_ha.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1004
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1004
+
+ []
+
+
+Overfull \vbox (15.42201pt too high) has occurred while \output is active []
+
+
+[10] [11]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 1028.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 1028.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+Missing character: There is no Â in font cmr8!
+Missing character: There is no ´ in font cmr8!
+Missing character: There is no Â in font cmr8!
+Missing character: There is no ´ in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no “ in font cmr8!
+[12]
+No file scarlata_v2.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[13] (./scarlata_v2.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3747 strings out of 493748
+ 48971 string characters out of 3143569
+ 159722 words of memory out of 3000000
+ 6999 multiletter control sequences out of 15000+200000
+ 13351 words of font info for 55 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 35i,11n,29p,924b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on scarlata_v2.dvi (13 pages, 76328 bytes).

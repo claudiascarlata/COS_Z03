@@ -1,0 +1,39 @@
+We list rest-frame equivalent widths and relative systemic redshifts for the six strongest low-ionization interstellar absorption lines in Table 1. The strength of these features makes them ideal for measuring interstellar absorption redshifts in noisy individual spectra. However,  they are not useful for measuring chemical abundances,  because all of the strong lines are saturated. The saturation of the strong lines is most easily demonstrated by comparing the equivalent widths for two different Si II transitions: Si II λ1260 and λ1526. On the linear part of the curve of growth,  W ∝ Nfλ2,  where N is the column density of the ionic species and λ is the rest-frame wavelength of the transition. According to the relative oscillator strengths and wavelengths of the two Si II transitions,  the ratio W0(1260)/W0(1526) > 5 on the linear part of the curve of growth. We measure W0(1260)/W0(1526) = 0.95,  consistent with a ratio of unity,  given the uncertainties,  thus demonstrating that the Si II transitions are optically thick.
+
+deblending SiII 1190 3 components:, 
+1- lambda=1189.79,  flux=-1.1e-16,  ew=0.906,  gfwhm=1.11, 
+2- lambda=1192.61,  flux=-1.2e-16,  ew=0.9806,  gfwhm=1.11, 
+3- lambda=1194.03,  flux=-4.0e-17,  ew=-0.328,  gfwhm=1.11, 
+
+SiII 1260.42, 
+1- lambda=1259.54,  flux=-1.3e-16,  ew=1.111,  gfwhm=1.28, 
+
+SiII 1304.35 + OI, 
+1- lambda=1301.69,  flux=-1.0e-16,  ew=1.194,  gfwhm=1.12, 
+1- lambda=1303.38,  flux=-6.7e-17, ew=0.7561,  gfwhm=1.12, 
+
+notes: , 1ev= 8 065.73 cm-1, OI:, 1 302.168
+
+
+readcol,'FWHM_measurement',fwhm,format='x,d'
+readcol,'Classification',lab,n_p,sym,comp,format='a,d,d,d'
+       
+;set rest frame wavelength vector
+lambda_RF=dindgen(45000*sf)*(0.012241679d/sf) + 1000.
+lum=zopt*0.
+       
+spectra=dblarr(25,45000*sf)*0.d
+spectra_norm=dblarr(25,45000*sf)*0.d
+errors=dblarr( 25,45000*sf)*0.d
+dq_all=dblarr( 25,45000*sf)*0.d
+       
+for j=0,n_elements(zopt)-1,1 do begin
+   file='COS_SPECTRA/'+gal[j]+'_x1dsum.fits'
+   sum_n=mrdfits(file,1)
+   lambda=[sum_n[1].wavelength,sum_n[0].wavelength[where(sum_N[0].wavelength gt sum_n[1].wavelength[n_elements(sum_n[1].wavelength)-1])]]
+   flusso=[sum_n[1].flux            ,sum_n[0].flux[where(sum_N[0].wavelength gt sum_n[1].wavelength[n_elements(sum_n[1].wavelength)-1])]]
+   error= [sum_n[1].error          ,sum_n[0].error[where(sum_N[0].wavelength gt sum_n[1].wavelength[n_elements(sum_n[1].wavelength)-1])]]
+   dq= [sum_n[1].dq                   ,sum_n[0].dq[where(sum_N[0].wavelength gt sum_n[1].wavelength[n_elements(sum_n[1].wavelength)-1])]]
+       
+   rfm=where(lambda/(1.+ zopt[j]) lt 1300 and lambda/(1.+ zopt[j]) gt 1220 and dq eq 0)
+set_plot,'x'

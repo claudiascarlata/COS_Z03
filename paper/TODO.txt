@@ -1,0 +1,14 @@
+Finish section on NUV COS luminosities systematically lower than 
+GALEX. IS THIS CORRECTED FOR VIGNETTING? 
+
+- measure LIS velocity offsets and compare with Heckman et al papers
+
+- compute asymmetries. 
+
+- I presume the FUV 1/2 light radius correlates with L(Lya) and L(FUV) 
+	just through the size luminosity relation, but does it correlate with 
+	EW(COS) / EW(GALEX) ?  I.e. do we sytematically lose more Lya as galaxies
+	get bigger? 
+
+
+- FOUR cannot calibratate Lambda
